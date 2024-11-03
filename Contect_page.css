@@ -1,0 +1,68 @@
+.contact-wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white; /* Add contrast color for text */
+}
+
+.contact-wrapper{
+    font-family: Arial, sans-serif; /* Corrected font-family property */
+    background: linear-gradient(135deg, black 30%, #333333 100%);
+    color: white; /* Set general text color for the body */
+}
+
+.contact-title {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+/* Image Styling */
+.contact-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: #ffffff ;
+    margin: 20px 0;
+}
+
+/* Paragraph Styling */
+.contact-wrapper p {
+    font-size: 1em;
+    color: white;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Footer Styling */
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Links */
+.social-links a {
+    margin: 0 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0078ff;
+}
